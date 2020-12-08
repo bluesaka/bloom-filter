@@ -1,0 +1,24 @@
+{
+  "name": "bluesaka/bloom-filter",
+  "description": "A bloom filter based on redis",
+  "type": "library",
+  "license": "MIT",
+  "authors": [{
+    "name": "felix",
+    "email": "real233@163.com"
+  }],
+  "require": {
+    "php": "^7.4.1",
+    "ext-redis": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bluesaka\\BloomFilter\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  }
+}
